@@ -6,6 +6,21 @@ Este es un template acuático para tiendas de Minecraft en Tebex que utiliza sol
 
 Demo URL: https://thequesingtemplatecss.tebex.io/
 
+## Instalacion
+
+Crea un template de tebex css y en el codigo css pon esto:
+
+```css
+@import "https://cdn.jsdelivr.net/gh/thequesing/tebexminecraftcss@1.0.0/style.css";
+:root{
+  --main-color: #0DCDE7;
+  --second-color: #FFFFFF;
+  --logo-width: 250px;
+  --logo-height: 250px;
+  --header-bg: url("https://cdn.jsdelivr.net/gh/thequesing/tebexminecraftcss@1.0.0/header.png");
+}
+```
+
 ## Autor
 
 - TheQuesing (FullStack Developer)
