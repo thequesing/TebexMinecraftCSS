@@ -17,7 +17,7 @@ Crea un template de tebex css y en el codigo css pon esto:
   --second-color: #FFFFFF;
   --logo-width: 250px;
   --logo-height: 250px;
-  --header-bg: url("https://cdn.jsdelivr.net/gh/thequesing/tebexminecraftcss@1.0.0/header.png");
+  --header-bg: url("https://cdn.jsdelivr.net/gh/thequesing/tebexminecraftcss@1.0.0/header.jpg");
 }
 ```
 
