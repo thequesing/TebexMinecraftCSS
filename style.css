@@ -1,0 +1,134 @@
+/* © 2023-2024 TheQuesing Todos los derechos reservados. */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: monospace;
+  background: var(--main-color);
+}
+.container{
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* HEADER */ 
+.header{
+  position: relative;
+  height: 350px;
+  background: var(--header-bg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+.logo{  
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation: logo 5s infinite !important;
+  width: var(--logo-width) !important;
+  height: var(--logo-height) !important;
+}
+.logo img{
+  width: var(--logo-width) !important;
+  height: var(--logo-height) !important;
+}
+@keyframes logo{
+  0% {
+        transform: translateY(0px)
+	}
+	50% {
+        transform: translateY(-10px);
+	}
+	100% {
+        transform: translateY(0px);
+	}
+}
+.buttons {
+  position: absolute !important;
+  margin: 10px;
+  display: block;
+  right: 10px !important;
+}
+.toolbar, .currency, .basket{
+  margin: 10px;
+}
+/* NAVBAR */ 
+.navbar, navbar-default{
+  max-width: 1000px;
+  padding: 0px 20px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 2px;
+}
+.nav a:after{
+  text-decoration: none !important;
+  color: #0DCDE7 !important;
+}
+.nav a:hover{
+  text-decoration: none !important;
+  color: black !important;
+}
+/* BODY */
+.body{
+  max-width: 1029px;
+  margin: auto;
+}
+.panel{
+  border: none;
+}
+.panel-heading{
+  background-image: none;
+  height: 50px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  background: blue;
+}
+/* FOOTER */ 
+.footer{
+  background: white;
+  padding: 30px;
+  bottom: 0px;
+  color: black;
+  border: none;
+  margin: 0;
+}
+.branding{
+  color: black;
+}
+.branding a{
+  text-decoration: none;
+  color: black;
+}
+.footer a{
+  color: black;
+}
+
+/* RESPONSIVE */
+
+/* TABLET */ 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+.navbar{
+    margin: 14px;
+  }
+}
+/* MOBILE */ 
+
+@media only screen and (max-width: 900px) {
+  .buttons{
+    margin: 10px;
+  }
+  .logo{
+    top: 105px;;
+  }
+  .navbar{
+    margin: 14px;
+  }
+}
