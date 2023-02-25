@@ -11,7 +11,7 @@ Demo URL: https://thequesingtemplatecss.tebex.io/
 Crea un template de tebex css y en el codigo css pon esto:
 
 ```css
-@import "https://cdn.jsdelivr.net/gh/thequesing/tebexminecraftcss@1.0.0/style.css";
+@import "https://cdn.jsdelivr.net/gh/thequesing/TebexMinecraftCSS/style.css";
 :root{
   --main-color: #0DCDE7;
   --second-color: #FFFFFF;
